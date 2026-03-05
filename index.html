@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <a href="#home">Home</a> |
+        <a href="#about">About</a> |
+        <a href="#projects">Projects</a> |
+        <a href="#contact">Contact</a>
+    </nav>
+    <header>
+        <h1>Chanda</h1>
+        <p>Aspiring B.Tech | Software Developer | Problem Solver </p>
+    </header>
+    <section id="home">
+    <h2>Coding</h2>
+    <p>
+        Coding is my favorite hobby. I enjoy solving logical problems and building
+        applications. It allows me to create useful projects and continuously
+        improve my technical skills.
+    </p>
+
+    
+    <!-- Ordered List -->
+    <ol id="benefitList">
+        <li>Improves problem-solving skills</li>
+        <li>Enhances logical thinking</li>
+        <li>Builds technical knowledge</li>
+    </ol>
+    <input type="text" id="hobbyInput" placeholder="Enter new benefit">
+    <button id="addBtn">Add</button>
+    </section>
+    <section id="about">
+    <h2>About Me</h2>
+    <p>
+        I am a B.Tech student with a strong interest in software development and full-stack web development. I enjoy building real-world projects that solve practical problems and help me strengthen my technical foundation. I have worked on multiple projects including a Lead Management Dashboard and a real-time WhatsApp Clone, where I implemented REST APIs, authentication systems, and database management using MongoDB.
+    I have hands-on experience in C++, Python, HTML, CSS, JavaScript, MySQL, and MongoDB. Through my projects, I have developed skills in backend development, database design, API integration, and building responsive user interfaces. I am continuously learning new technologies and improving my problem-solving abilities to grow as a professional developer.
+    </p>
+    </section>
+    <section id="projects">
+    <h2>Projects</h2>
+
+    <div class="projects-container">
+
+        <div class="project">
+            <h3>Lead Management Dashboard</h3>
+            <p>A full-stack web application that enables admins and users to manage and track leads efficiently. 
+                It features role-based access control, secure REST APIs for lead operations, and an optimized MongoDB
+                schema to handle the complete lead lifecycle.</p>
+            
+            <a href="https://github.com/chanda2937/Lead_ManagementDashboard.git">GitHub Link</a>
+        </div>
+
+        <div class="project">
+            <h3>WhatsApp Clone</h3>
+            <p>A real-time messaging application built using React, Node.js, Express, and MongoDB.
+                It includes JWT-based authentication, role-based access control, and WebSocket integration 
+                for instant messaging and live user status updates.</p>
+
+            <a href="https://github.com/chanda2937/whatsApp_clone.git">GitHub Link</a>
+        </div>
+
+        <div class="project">
+            <h3>Mini project</h3>
+            <p>A basic static website built using HTML and CSS that showcases simple web page layout and styling. It includes 
+                structured navigation, content sections, images, and styled elements demonstrating foundational web development 
+                skills in frontend design.</p>
+        
+            <a href="https://github.com/chanda2937/mini_project.git">GitHub Link</a>
+        </div>
+
+    </div>
+    </section>
+    <section id="contact">
+    <h2>Contact</h2>
+    <form id="contactForm">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message"></textarea><br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+    </section>
+    <footer>
+        <a href="https://www.linkedin.com/in/chanda-chauhan-0562492b2/">LinkedIn</a> |
+        <a href="https://github.com/chanda2937">GitHub</a>
+        <p id="dateTime"></p>
+    </footer>
+    <script src="script.js"></script>
+
+</body>
+</html>
